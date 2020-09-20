@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'happy';
+    src: url('font/happy.ttf');
+  }
+  
+  /* Déclaration de la police version "italic" */
+  @font-face {
+    font-family: 'happy';
+    font-style: italic;
+    src: url('font/happy-ita.ttf');
+  }
+  
+  /********************* GENERAL **************************/
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: happy, serif;
+    color: #a48f6e;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    font-family: happy;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  strong {
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /************************ HEADER ***********************/
+  
+  header {
+    position: relative;
+    background-color: #100030;
+    height: 100vh;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    padding: 0 25%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .header-line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 20%;
+    background-color: #a48f6e;
+  }
+  
+  /************************ NAV **************************/
+  
+  nav {
+    padding: 50px 5% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+  }
+  
+  nav.container {
+    align-items: flex-end;
+  }
+  
+  .brand {
+    margin-right: auto;
+  }
+  
+  .nav-links {
+    text-transform: uppercase;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 80px;
+  }
+  
+  .brand img {
+    width: 20px;
+  }
+  
+  /********************** DESCRIPTION ********************/
+  
+  #description {
+    padding: 70px 17% 20px;
+  }
+
+  #description img
+  {
+    width: 100%;
+  }
+  
+  #description p {
+    padding: 60px 30px;
+    font-size: 1.15rem;
+    text-align: center;
+  }
+  
+  .container-two {
+    position: relative;
+    top: -50px;
+    align-items: center;
+  }
+  
+  #description .content:after {
+    position: absolute;
+    bottom: -20px;
+    left: 15%;
+    content: '';
+    width: 70%;
+    border-bottom: solid 1px #a48f6e;
+  }
+  
+  /************************* SERVICES *************************/
+  
+  figure,
+  figure img {
+    width: 100%;
+    margin: 0;
+  }
+  
+  figcaption {
+    height: 50px;
+    line-height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #a48f6e;
+  }
+  
+  .service p {
+    position: relative;
+    bottom: 30px;
+  }
+  
+  figcaption {
+    position: relative;
+    bottom: 54px;
+  }
+  
+  .service p {
+    font-size: 0.9rem;
+  }
+
+  .key-words-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    background: #eee;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+  }
+
+  .services-block {
+  }
+  
+  /*************************** CONTACT *************************/
+  
+  #contact .content {
+    padding: 82px 0 120px;
+    text-align: center;
+  }
+  
+  #contact .content:after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    border-bottom: solid 1px #a48f6e;
+  }
+  
+  #contact a {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #a48f6e;
+  }
+  
+  #contact a:after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 2%;
+    width: 96%;
+    border-bottom: solid 1px #a48f6e;
+  }
+  
+  /****************************** FOOTER ***************************/
+  
+  footer {
+    height: 100px;
+    padding: 0px 5%;
+  }
+  
+  footer .container {
+    align-items: flex-end;
+    margin-top: 15px;
+  }
+  
+  footer .container * {
+    display: inline-block;
+  }
+  
+  .footer-logo {
+    width: 14px;
+  }
+  
+  .footer-mini-logo {
+    margin-left: 20px;
+    width: 10px;
+  }
+  
+  .footer-title {
+    position: relative;
+    bottom: 3px;
+    left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .bigger-letter {
+    font-size: 0.8rem;
+  }
+  
+  .copyright {
+    position: relative;
+    bottom: 3px;
+    margin-left: auto;
+    font-size: 0.7rem;
+  }
+
+  /* RESPONSIVE */
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+  
+  
