@@ -145,7 +145,7 @@
     left: 15%;
     content: '';
     width: 70%;
-    border-bottom: solid 1px #a48f6e;
+    /* border-bottom: solid 1px #a48f6e; */
   }
   
   /************************* SERVICES *************************/
