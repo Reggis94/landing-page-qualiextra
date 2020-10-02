@@ -24,7 +24,6 @@
   
   [class*="col-"] {
     float: left;
-    padding: 15px;
   }
 
   html,
@@ -387,6 +386,16 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  #services{
+    display: none;
+  }
+
+  #description{
+    padding: 0px 15px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -401,6 +410,10 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  #slider-section{
+    display: none;
+  }
 }
   
   
