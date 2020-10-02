@@ -393,6 +393,16 @@
 
   #description{
     padding: 0px 15px;
+    margin: 10px;
+  }
+
+  #description p{
+    padding: 0px;
+  }
+
+  .mySlides p{
+    font-size: 1.15rem;
+    text-align: center;
   }
 }
 
