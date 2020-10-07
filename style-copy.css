@@ -60,9 +60,9 @@
   .header-text {
     position: absolute;
     top: 50%;
-    padding: 0 25%;
+    padding: 0 15px;
     transform: translateY(-50%);
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   
@@ -113,6 +113,12 @@
   
   /********************** DESCRIPTION ********************/
   
+  .column-reverse
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   #description {
     padding: 70px 17% 20px;
   }
