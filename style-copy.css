@@ -54,7 +54,7 @@
   header {
     position: relative;
     background-color: #100030;
-    height: 50vh;
+    height: 100vh;
   }
   
   .header-text {
@@ -112,12 +112,6 @@
   }
   
   /********************** DESCRIPTION ********************/
-  
-  .column-reverse
-  {
-    display: flex;
-    flex-direction: column-reverse;
-  }
 
   #description {
     padding: 70px 17% 20px;
@@ -282,7 +276,8 @@
   position: relative;
   margin: auto;
   background-color: #a48f6e;
-  color: white
+  color: white;
+  margin-top: 50px;
 }
 
 /* Hide the images by default */
@@ -388,6 +383,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  header
+  {
+    height: 50vh;
+  }
   #services{
     display: none;
   }
@@ -404,6 +404,18 @@
   .mySlides p{
     font-size: 1.15rem;
     text-align: center;
+  }
+
+  .column-reverse
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .gold-bar
+  {
+    color: #a48f6e;
+    border: 1px solid #a48f6e;
   }
 }
 
