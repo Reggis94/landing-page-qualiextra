@@ -278,6 +278,8 @@
   background-color: #a48f6e;
   color: white;
   margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* Hide the images by default */
@@ -416,6 +418,20 @@
   {
     color: #a48f6e;
     border: 1px solid #a48f6e;
+  }
+
+  .contact-us-text
+  {
+    font-weight: bold;
+  }
+
+  .copyright-container{
+    text-align: center;
+  }
+
+  #contact .content{
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
 }
 
