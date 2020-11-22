@@ -56,13 +56,25 @@
     background-color: #100030;
     height: 100vh;
   }
-  
+
+  header::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid #a48f6e;
+    transform: translate(-50%);
+}
+
+
   .header-text {
     position: absolute;
     top: 50%;
-    padding: 0 15px;
+    padding: 0 25%;
     transform: translateY(-50%);
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
   }
   
@@ -384,12 +396,26 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
   header
   {
     height: 50vh;
   }
+
+  .header-text {
+    position: absolute;
+    top: 50%;
+    padding: 0 15px;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  header::after {
+    display: none;
+  }
+
   #services{
     display: none;
   }
@@ -435,7 +461,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
