@@ -153,7 +153,12 @@
     content: '';
     width: 70%;
   }
-  
+
+  .horizontal-gold-bar-responsive
+  {
+    display: none;
+  }
+
   /************************* SERVICES *************************/
   
   figure,
@@ -440,8 +445,9 @@
     flex-direction: column-reverse;
   }
 
-  .gold-bar
+  .horizontal-gold-bar-responsive
   {
+    display: block;
     color: #a48f6e;
     border: 1px solid #a48f6e;
   }
