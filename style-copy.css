@@ -61,7 +61,7 @@
     content: "";
     position: absolute;
     z-index: 0;
-    top: 0;
+    top: 75%;
     bottom: 0;
     left: 50%;
     border-left: 2px solid #a48f6e;
