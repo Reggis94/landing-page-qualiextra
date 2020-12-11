@@ -159,6 +159,15 @@
     display: none;
   }
 
+  /************************** SEPARATOR ***********************/
+  .desktop-hr-section-separator
+  {
+    width: 40%;
+    color: #a48f6e;
+    margin-top: 50px;
+    margin-bottom: 65px;
+  }
+
   /************************* SERVICES *************************/
   
   figure,
