@@ -169,7 +169,16 @@
   }
 
   /************************* SERVICES *************************/
-  
+  .services-block-first
+  {
+    margin-right: 25px;
+  }
+
+  .services-block-last
+  {
+    margin-left: 25px;
+  }
+
   figure,
   figure img {
     width: 100%;
