@@ -215,7 +215,6 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 70%;
-    background: #eee;
     margin: 10px auto;
     position: relative;
     text-align:center;
@@ -422,6 +421,12 @@
 
 /** Desktop only**/
 @media only screen and (min-width: 901px) {
+
+  .flex-desktop-only
+  {
+    display: flex;
+  }
+
   .description-img-1-desktop-only
   {
     padding-right: 25px;
@@ -430,6 +435,13 @@
   .description-img-2-desktop-only
   {
     padding-left: 25px;
+  }
+
+  .paragraph-description-container
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
