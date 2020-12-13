@@ -447,6 +447,10 @@
 
 /** Media query for mobile. Window size max is 900px **/
 @media only screen and (max-width: 900px) {
+  
+  .desktop-only{
+    display: none;
+  }
 
   header
   {
