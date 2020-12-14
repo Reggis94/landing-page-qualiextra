@@ -470,6 +470,26 @@
     display: none;
   }
 
+  nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-brand-logo{
+    flex:11;
+  }
+
+  .nav-contact-link
+  {
+    height: 100%;
+    align-items: stretch;
+    position: relative;
+    flex: 1;
+    display: flex;    
+  }
+
   #services{
     display: none;
   }
