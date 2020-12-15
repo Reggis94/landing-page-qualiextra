@@ -427,6 +427,11 @@
     display: flex;
   }
 
+  .nav-contact-link
+  {
+    font-size: 1rem;      
+  }
+
   .description-img-1-desktop-only
   {
     padding-right: 25px;
@@ -487,7 +492,7 @@
     align-items: stretch;
     position: relative;
     flex: 1;
-    display: flex;    
+    display: flex;        
   }
 
   #services{
