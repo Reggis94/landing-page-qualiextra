@@ -453,6 +453,11 @@
     align-items: center;
     justify-content: center;
   }
+
+  .hr-footer
+  {
+    border:#a48f6e solid 1px;
+  }
 }
 
 /** Media query for mobile. Window size max is 900px **/
